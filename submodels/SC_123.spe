@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE SPE>
+<SPE AME_VERSION="2604" DOC_VERSION="6" HOTFIX="0" MAJ="20261" UPDATE="0">
+ <Submodel autonomousCompilation="False" autonomousRuntime="False" cirPortsOverFramework="1" codeGenVersion="1.0" defaultIcon="component_112" idMax="1" outputType="0" type="1" unit="0">
+  <RealParams>
+   <ExposedList>
+    <Exposed exposedVar="k@constant" origVarName="" subId="1" title="constant value" varName="k" />
+   </ExposedList>
+  </RealParams>
+  <ExtVars>
+   <Port tag="signal">
+    <Vars>
+     <Var dimension="1" io="2" subId="24" title="output" type="0" units="null" varName="out" visibility="True" />
+    </Vars>
+   </Port>
+  </ExtVars>
+  <ExposedOrder>
+   <Params>
+    <DataPaths>
+     <DataPath>k</DataPath>
+    </DataPaths>
+    <Groups />
+   </Params>
+   <Vars>
+    <Groups />
+   </Vars>
+  </ExposedOrder>
+ </Submodel>
+</SPE>
